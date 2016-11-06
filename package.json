@@ -1,0 +1,33 @@
+{
+  "name": "paperelectron.com",
+  "version": "1.0.0",
+  "description": "The paperelectron website",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "paper-web": "cli/paper-web.js"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "scripts": {
+    "start": "pomegranate start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperElectron/Paperelectron.com.git"
+  },
+  "author": "Jim <jim.b@paperelectron.com> (http://paperelectron.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaperElectron/Paperelectron.com/issues"
+  },
+  "homepage": "https://github.com/PaperElectron/Paperelectron.com#readme",
+  "dependencies": {
+    "node-minify": "^1.2.0",
+    "pomegranate": "^4.0.2",
+    "pomegranate-express": "^1.1.0",
+    "pomegranate-express-jade": "^1.0.0"
+  }
+}
